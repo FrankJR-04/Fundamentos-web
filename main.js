@@ -4,599 +4,360 @@ const productos = [
         imagen: "/imagenes/Laptop_HP_Pavilion_15_Modelo_1.png",
         precio: "4.800.000",
         descripcion: "Laptop de alto rendimiento para trabajo y entretenimiento con el modelo 1.",
-        especificacionesTecnicas: {
-            marca: "HP",
-            modelo: "Pavilion 15 1",
-            procesador: "Intel Core i5-10510U",
-            ram: "8 GB",
-            almacenamiento: "SSD 256 GB",
-            tarjetaGrafica: "NVIDIA GeForce GTX 1650",
-            pantalla: "15\" Full HD"
-        }
+        marca: "HP",
+        modelo: "Pavilion 15 1",
+        disponibilidad:"Bajo stock"
     },
     {
         nombre: "Laptop HP Pavilion 15 Modelo 2",
         imagen: "/imagenes/Laptop_HP_Pavilion_15_Modelo_2.png",
         precio: "6.400.000",
         descripcion: "Laptop de alto rendimiento para trabajo y entretenimiento con el modelo 2.",
-        especificacionesTecnicas: {
-            marca: "HP",
-            modelo: "Pavilion 15 2",
-            procesador: "Intel Core i7-10750H",
-            ram: "16 GB",
-            almacenamiento: "SSD 512 GB",
-            tarjetaGrafica: "NVIDIA GeForce GTX 1660",
-            pantalla: "15\" Full HD"
-        }
+        marca: "HP",
+        modelo: "Pavilion 15 2",
+        disponibilidad:"En stock"
     },
     {
         nombre: "Laptop HP Pavilion 15 Modelo 3",
         imagen: "/imagenes/Laptop_HP_Pavilion_15_Modelo_3.png",
         precio: "5.600.000",
         descripcion: "Laptop de alto rendimiento para trabajo y entretenimiento con el modelo 3.",
-        especificacionesTecnicas: {
-            marca: "HP",
-            modelo: "Pavilion 15 3",
-            procesador: "Intel Core i3-10110U",
-            ram: "8 GB",
-            almacenamiento: "HDD 1 TB",
-            tarjetaGrafica: "Integrada",
-            pantalla: "14\" Full HD"
-        }
+        marca: "HP",
+        modelo: "Pavilion 15 3",
+        disponibilidad:"En stock"
     },
     {
         nombre: "Laptop Dell Inspiron 15 Modelo 1",
         imagen: "/imagenes/Laptop_Dell_Inspiron_15_Modelo_1.png",
         precio: "3.600.000",
         descripcion: "Laptop versátil y ligera ideal para trabajo y estudios.",
-        especificacionesTecnicas: {
-            marca: "Dell",
-            modelo: "Inspiron 15 1",
-            procesador: "AMD Ryzen 5 3500U",
-            ram: "8 GB",
-            almacenamiento: "SSD 512 GB",
-            tarjetaGrafica: "Integrada",
-            pantalla: "15.6\" HD"
-        }
+        marca: "Dell",
+        modelo: "Inspiron 15 1",
+        disponibilidad:"Bajo stock"
+        
     },
     {
         nombre: "Laptop Dell Inspiron 15 Modelo 2",
         imagen: "/imagenes/Laptop_Dell_Inspiron_15_Modelo_2.png",
         precio: "4.400.000",
         descripcion: "Laptop para alto rendimiento con almacenamiento rápido.",
-        especificacionesTecnicas: {
-            marca: "Dell",
-            modelo: "Inspiron 15 2",
-            procesador: "AMD Ryzen 7 4700U",
-            ram: "16 GB",
-            almacenamiento: "SSD 1 TB",
-            tarjetaGrafica: "AMD Radeon Vega",
-            pantalla: "15.6\" Full HD"
-        }
+        marca: "Dell",
+        modelo: "Inspiron 15 2",
+        disponibilidad:"Agotado"
     },
     {
         nombre: "MacBook Pro 13",
         imagen: "/imagenes/MacBook_Pro_13.png",
         precio: "8.000.000",
         descripcion: "Portátil de alto rendimiento con procesador Apple M1.",
-        especificacionesTecnicas: {
-            marca: "Apple",
-            modelo: "MacBook Pro 13",
-            procesador: "Apple M1",
-            ram: "8 GB",
-            almacenamiento: "SSD 256 GB",
-            tarjetaGrafica: "Apple 8-core GPU",
-            pantalla: "13.3\" Retina"
-        }
+        marca: "Apple",
+        modelo: "MacBook Pro 13",
+        disponibilidad:"En stock"
     },
     {
         nombre: "MacBook Air 13",
         imagen: "/imagenes/MacBook_Air_13.png",
         precio: "5.200.000",
         descripcion: "Portátil ultraligero de Apple con gran rendimiento y batería.",
-        especificacionesTecnicas: {
-            marca: "Apple",
-            modelo: "MacBook Air 13",
-            procesador: "Apple M1",
-            ram: "8 GB",
-            almacenamiento: "SSD 256 GB",
-            tarjetaGrafica: "Apple 7-core GPU",
-            pantalla: "13.3\" Retina"
-        }
+        marca: "Apple",
+        modelo: "MacBook Air 13",
+        disponibilidad:"En stock"
     },
     {
         nombre: "Acer Aspire 5",
         imagen: "/imagenes/Acer_Aspire_5.png",
         precio: "2.800.000",
         descripcion: "Laptop económica y funcional para tareas diarias.",
-        especificacionesTecnicas: {
-            marca: "Acer",
-            modelo: "Aspire 5",
-            procesador: "Intel Core i5-1035G1",
-            ram: "8 GB",
-            almacenamiento: "SSD 512 GB",
-            tarjetaGrafica: "Integrada",
-            pantalla: "15.6\" Full HD"
-        }
+        marca: "Acer",
+        modelo: "Aspire 5",
+        disponibilidad:"Bajo stock"
     },
     {
         nombre: "Acer Nitro 5",
         imagen: "/imagenes/Acer_Nitro_5.png",
         precio: "4.400.000",
         descripcion: "Laptop gamer con gráficos NVIDIA GeForce GTX 1650.",
-        especificacionesTecnicas: {
-            marca: "Acer",
-            modelo: "Nitro 5",
-            procesador: "Intel Core i5-9300H",
-            ram: "16 GB",
-            almacenamiento: "SSD 256 GB + HDD 1 TB",
-            tarjetaGrafica: "NVIDIA GeForce GTX 1650",
-            pantalla: "15.6\" Full HD"
-        }
+        marca: "Acer",
+        modelo: "Nitro 5",
+        disponibilidad:"Agotado"
     },
     {
         nombre: "Lenovo ThinkPad X1 Carbon",
         imagen: "/imagenes/Lenovo_ThinkPad_X1_Carbon.png",
         precio: "7.200.000",
         descripcion: "Laptop ultraligera y resistente ideal para ejecutivos.",
-        especificacionesTecnicas: {
-            marca: "Lenovo",
-            modelo: "ThinkPad X1 Carbon",
-            procesador: "Intel Core i7-10510U",
-            ram: "16 GB",
-            almacenamiento: "SSD 1 TB",
-            tarjetaGrafica: "Integrada",
-            pantalla: "14\" Full HD"
-        }
+        marca: "Lenovo",
+        modelo: "ThinkPad X1 Carbon",
+        disponibilidad:"Bajo stock"
     },
         {
             nombre: "Lenovo IdeaPad 3",
             imagen: "/imagenes/Lenovo_IdeaPad_3.png",
             precio: "2.600.000",
             descripcion: "Laptop económica y versátil, ideal para estudiantes.",
-            especificacionesTecnicas: {
-                marca: "Lenovo",
-                modelo: "IdeaPad 3",
-                procesador: "Intel Core i3-1005G1",
-                ram: "4 GB",
-                almacenamiento: "SSD 128 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "15.6\" HD"
-            }
+            marca: "Lenovo",
+            modelo: "IdeaPad 3",
+            disponibilidad:"Agotado"
         },
         {
             nombre: "Lenovo Legion 5",
             imagen: "/imagenes/Lenovo_Legion_5.png",
             precio: "4.800.000",
             descripcion: "Laptop gamer con rendimiento superior y gráficos dedicados.",
-            especificacionesTecnicas: {
-                marca: "Lenovo",
-                modelo: "Legion 5",
-                procesador: "AMD Ryzen 5 4600H",
-                ram: "8 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "NVIDIA GeForce GTX 1660 Ti",
-                pantalla: "15.6\" Full HD"
-            }
+            marca: "Lenovo",
+            modelo: "Legion 5",
+            disponibilidad:"Disponible bajo pedido"
         },
         {
             nombre: "Asus VivoBook 15",
             imagen: "/imagenes/Asus_VivoBook_15.png",
             precio: "3.000.000",
             descripcion: "Laptop delgada y ligera con rendimiento suficiente para tareas diarias.",
-            especificacionesTecnicas: {
-                marca: "Asus",
-                modelo: "VivoBook 15",
-                procesador: "Intel Core i5-1035G1",
-                ram: "8 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "15.6\" Full HD"
-            }
+            marca: "Asus",
+            modelo: "VivoBook 15",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Asus ROG Zephyrus G14",
             imagen: "/imagenes/Asus_ROG_Zephyrus_G14.png",
             precio: "6.000.000",
             descripcion: "Laptop gamer ultraligera con gráficos potentes y batería duradera.",
-            especificacionesTecnicas: {
-                marca: "Asus",
-                modelo: "ROG Zephyrus G14",
-                procesador: "AMD Ryzen 9 4900HS",
-                ram: "16 GB",
-                almacenamiento: "SSD 1 TB",
-                tarjetaGrafica: "NVIDIA GeForce RTX 2060",
-                pantalla: "14\" Full HD"
-            }
+            marca: "Asus",
+            modelo: "ROG Zephyrus G14",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Samsung Galaxy Book Flex",
             imagen: "/imagenes/Samsung_Galaxy_Book_Flex.png",
             precio: "5.200.000",
             descripcion: "Laptop 2 en 1 con pantalla táctil QLED y gran duración de batería.",
-            especificacionesTecnicas: {
-                marca: "Samsung",
-                modelo: "Galaxy Book Flex",
-                procesador: "Intel Core i7-1065G7",
-                ram: "8 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Intel Iris Plus",
-                pantalla: "13.3\" QLED Full HD"
-            }
+            marca: "Samsung",
+            modelo: "Galaxy Book Flex",
+            disponibilidad:"Disponible bajo pedido"
         },
         {
             nombre: "Microsoft Surface Laptop 3",
             imagen: "/imagenes/Microsoft_Surface_Laptop_3.png",
             precio: "5.600.000",
             descripcion: "Laptop con pantalla táctil y diseño premium ideal para productividad.",
-            especificacionesTecnicas: {
-                marca: "Microsoft",
-                modelo: "Surface Laptop 3",
-                procesador: "Intel Core i5-1035G7",
-                ram: "8 GB",
-                almacenamiento: "SSD 256 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "13.5\" PixelSense"
-            }
+            marca: "Microsoft",
+            modelo: "Surface Laptop 3",
+            disponibilidad:"Bajo stock"
         },
         {
             nombre: "Huawei MateBook X Pro",
             imagen: "/imagenes/Huawei_MateBook_X_Pro.png",
             precio: "6.400.000",
             descripcion: "Laptop ultrafina con pantalla táctil 3K y gran rendimiento.",
-            especificacionesTecnicas: {
-                marca: "Huawei",
-                modelo: "MateBook X Pro",
-                procesador: "Intel Core i7-10510U",
-                ram: "16 GB",
-                almacenamiento: "SSD 1 TB",
-                tarjetaGrafica: "NVIDIA GeForce MX250",
-                pantalla: "13.9\" 3K"
-            }
+            marca: "Huawei",
+            modelo: "MateBook X Pro",
+            disponibilidad:"Bajo stock"
         },
         {
             nombre: "Razer Blade 15",
             imagen: "/imagenes/Razer_Blade_15.png",
             precio: "8.400.000",
             descripcion: "Laptop gamer compacta con gráficos de alto rendimiento.",
-            especificacionesTecnicas: {
-                marca: "Razer",
-                modelo: "Blade 15",
-                procesador: "Intel Core i7-10750H",
-                ram: "16 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "NVIDIA GeForce RTX 2070",
-                pantalla: "15.6\" Full HD 144Hz"
-            }
+            marca: "Razer",
+            modelo: "Blade 15",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Dell XPS 13",
             imagen: "/imagenes/Dell_XPS_13.png",
             precio: "6.000.000",
             descripcion: "Laptop ultraligera con pantalla casi sin bordes y alto rendimiento.",
-            especificacionesTecnicas: {
-                marca: "Dell",
-                modelo: "XPS 13",
-                procesador: "Intel Core i7-1065G7",
-                ram: "16 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Intel Iris Plus",
-                pantalla: "13.4\" Full HD"
-            }
+            marca: "Dell",
+            modelo: "XPS 13",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Google Pixelbook Go",
             imagen: "/imagenes/Google_Pixelbook_Go.png",
             precio: "3.400.000",
             descripcion: "Chromebook premium con pantalla táctil y gran duración de batería.",
-            especificacionesTecnicas: {
-                marca: "Google",
-                modelo: "Pixelbook Go",
-                procesador: "Intel Core i5-8200Y",
-                ram: "8 GB",
-                almacenamiento: "SSD 128 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "13.3\" Full HD"
-            }
+            marca: "Google",
+            modelo: "Pixelbook Go",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Acer Aspire 3",
             imagen: "/imagenes/Acer_Aspire_3.png",
             precio: "1.400.000",
             descripcion: "Laptop económica con excelente rendimiento para tareas diarias.",
-            especificacionesTecnicas: {
-                marca: "Acer",
-                modelo: "Aspire 3",
-                procesador: "AMD Ryzen 3 3200U",
-                ram: "4 GB",
-                almacenamiento: "HDD 1 TB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "15.6\" HD"
-            }
+            marca: "Acer",
+            modelo: "Aspire 3",
+            disponibilidad:"Bajo stock"
         },
         {
             nombre: "Apple MacBook Air M1",
             imagen: "/imagenes/Apple_MacBook_Air_M1.png",
             precio: "4.000.000",
             descripcion: "Laptop ultraligera con el potente chip M1 de Apple.",
-            especificacionesTecnicas: {
-                marca: "Apple",
-                modelo: "MacBook Air M1",
-                procesador: "Apple M1",
-                ram: "8 GB",
-                almacenamiento: "SSD 256 GB",
-                tarjetaGrafica: "Integrada (Apple 7-core GPU)",
-                pantalla: "13.3\" Retina"
-            }
+            marca: "Apple",
+            modelo: "MacBook Air M1",
+            disponibilidad:"Disponible bajo pedido"
         },
         {
             nombre: "HP Envy x360",
             imagen: "/imagenes/HP_Envy_x360.png",
             precio: "3.600.000",
             descripcion: "Laptop convertible ideal para productividad y entretenimiento.",
-            especificacionesTecnicas: {
-                marca: "HP",
-                modelo: "Envy x360",
-                procesador: "AMD Ryzen 5 4500U",
-                ram: "8 GB",
-                almacenamiento: "SSD 256 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "13.3\" Full HD Touch"
-            }
+            marca: "HP",
+            modelo: "Envy x360",
+            disponibilidad:"Agotado"
         },
         {
             nombre: "Dell Inspiron 14",
             imagen: "/imagenes/Dell_Inspiron_14.png",
             precio: "2.720.000",
             descripcion: "Laptop compacta y potente, ideal para estudiantes y profesionales.",
-            especificacionesTecnicas: {
-                marca: "Dell",
-                modelo: "Inspiron 14",
-                procesador: "Intel Core i5-1135G7",
-                ram: "8 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Intel Iris Xe",
-                pantalla: "14\" Full HD"
-            }
+            marca: "Dell",
+            modelo: "Inspiron 14",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Microsoft Surface Pro 7",
             imagen: "/imagenes/Microsoft_Surface_Pro_7.png",
             precio: "3.000.000",
             descripcion: "Tablet y laptop en uno, con la versatilidad de una pantalla táctil.",
-            especificacionesTecnicas: {
-                marca: "Microsoft",
-                modelo: "Surface Pro 7",
-                procesador: "Intel Core i3-1005G1",
-                ram: "4 GB",
-                almacenamiento: "SSD 128 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "12.3\" PixelSense"
-            }
+            marca: "Microsoft",
+            modelo: "Surface Pro 7",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Huawei MateBook D 14",
             imagen: "/imagenes/Huawei_MateBook_D_14.png",
             precio: "3.000.000",
             descripcion: "Laptop delgada con buena duración de batería y pantalla Full HD.",
-            especificacionesTecnicas: {
-                marca: "Huawei",
-                modelo: "MateBook D 14",
-                procesador: "AMD Ryzen 5 3500U",
-                ram: "8 GB",
-                almacenamiento: "SSD 256 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "14\" Full HD"
-            }
+            marca: "Huawei",
+            modelo: "MateBook D 14",
+            disponibilidad:"En stock"
         },
         {
             nombre: "Asus ZenBook 14",
             imagen: "/imagenes/Asus_ZenBook_14.png",
             precio: "4.800.000",
             descripcion: "Laptop ultraligera con diseño premium y rendimiento sobresaliente.",
-            especificacionesTecnicas: {
-                marca: "Asus",
-                modelo: "ZenBook 14",
-                procesador: "Intel Core i7-1165G7",
-                ram: "16 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Intel Iris Xe",
-                pantalla: "14\" Full HD"
-            }
+            marca: "Asus",
+            modelo: "ZenBook 14",
+            disponibilidad:"Bajo stock"
         },
         {
             nombre: "Samsung Galaxy Book Ion",
             imagen: "/imagenes/Samsung_Galaxy_Book_Ion.png",
             precio: "5.600.000",
             descripcion: "Laptop ligera con pantalla QLED y batería de larga duración.",
-            especificacionesTecnicas: {
-                marca: "Samsung",
-                modelo: "Galaxy Book Ion",
-                procesador: "Intel Core i5-10210U",
-                ram: "8 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "15.6\" QLED Full HD"
-            }
+            marca: "Samsung",
+            modelo: "Galaxy Book Ion",
+            disponibilidad:"Bajo stock"
         },
         {
             nombre: "Google Pixelbook",
             imagen: "/imagenes/Google_Pixelbook.png",
             precio: "4.000.000",
             descripcion: "Chromebook de alta gama con pantalla táctil y diseño compacto.",
-            especificacionesTecnicas: {
-                marca: "Google",
-                modelo: "Pixelbook",
-                procesador: "Intel Core i5-7Y57",
-                ram: "8 GB",
-                almacenamiento: "SSD 128 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "12.3\" Quad HD"
-            }
+            marca: "Google",
+            modelo: "Pixelbook",
+            disponibilidad:"En stock"
         },
         {
-            nombre: "HP Omen 15",
+            nombre: "HP Omen 15", 
             imagen: "/imagenes/HP_Omen_15.png",
             precio: "5.600.000",
             descripcion: "Laptop gamer con gráficos dedicados y pantalla de alta tasa de refresco.",
-            especificacionesTecnicas: {
-                marca: "HP",
-                modelo: "Omen 15",
-                procesador: "AMD Ryzen 7 4800H",
-                ram: "16 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "NVIDIA GeForce GTX 1660 Ti",
-                pantalla: "15.6\" Full HD 144Hz"
-            }
+            marca: "HP",
+            modelo: "Omen 15",
+            disponibilidad:"En stock"
         },
         {
-            nombre: "LG Gram 14",
-            imagen: "/imagenes/LG_Gram_14.png",
-            precio: "5.600.000",
-            descripcion: "Laptop ultraligera con gran duración de batería y pantalla de alta resolución.",
-            especificacionesTecnicas: {
-                marca: "LG",
-                modelo: "Gram 14",
-                procesador: "Intel Core i7-1165G7",
-                ram: "16 GB",
-                almacenamiento: "SSD 1 TB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "14\" WQXGA (2560x1600)"
-            }
+            nombre: "Mouse Inalámbrico Logitech MX Master 3",
+            imagen: "/imagenes/logitech_mx_master_3.png",
+            precio: "320,000",
+            descripcion: "Mouse ergonómico de precisión con múltiples botones programables.",
+            marca: "Logitech",
+            modelo: "MX Master 3",
+            disponibilidad: "En stock"
         },
         {
-            nombre: "Asus ExpertBook B9",
-            imagen: "/imagenes/Asus_ExpertBook_B9.png",
-            precio: "8.000.000",
-            descripcion: "Laptop empresarial premium con diseño elegante y gran rendimiento.",
-            especificacionesTecnicas: {
-                marca: "Asus",
-                modelo: "ExpertBook B9",
-                procesador: "Intel Core i7-1165G7",
-                ram: "16 GB",
-                almacenamiento: "SSD 1 TB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "14\" Full HD"
-            }
+            nombre: "Teclado Mecánico Razer BlackWidow V3",
+            imagen: "/imagenes/razer_blackwidow_v3.png",
+            precio: "600,000",
+            descripcion: "Teclado mecánico con retroiluminación RGB y switches duraderos.",
+            marca: "Razer",
+            modelo: "BlackWidow V3",
+            disponibilidad: "En stock"
         },
         {
-            nombre: "Dell G5 15",
-            imagen: "/imagenes/DellG_5_15.png",
-            precio: "5.200.000",
-            descripcion: "Laptop gamer con un diseño atractivo y rendimiento sólido.",
-            especificacionesTecnicas: {
-                marca: "Dell",
-                modelo: "G5 15",
-                procesador: "Intel Core i7-10750H",
-                ram: "16 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "NVIDIA GeForce GTX 1650 Ti",
-                pantalla: "15.6\" Full HD 144Hz"
-            }
+            nombre: "Monitor Dell UltraSharp 27 4K",
+            imagen: "/imagenes/dell_ultrasharp_27.png",
+            precio: "2,000,000",
+            descripcion: "Monitor 4K de 27 pulgadas con excelente precisión de color.",
+            marca: "Dell",
+            modelo: "UltraSharp U2720Q",
+            disponibilidad: "Disponible bajo pedido"
         },
         {
-            nombre: "Lenovo Yoga C740",
-            imagen: "/imagenes/Lenovo_Yoga_C740.png",
-            precio: "4.400.000",
-            descripcion: "Laptop convertible 2 en 1 con pantalla táctil y gran rendimiento.",
-            especificacionesTecnicas: {
-                marca: "Lenovo",
-                modelo: "Yoga C740",
-                procesador: "Intel Core i5-10210U",
-                ram: "8 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "14\" Full HD Touch"
-            }
+            nombre: "Webcam Logitech C920 HD Pro",
+            imagen: "/imagenes/logitech_c920.png",
+            precio: "350,000",
+            descripcion: "Webcam Full HD para videollamadas y transmisión en alta calidad.",
+            marca: "Logitech",
+            modelo: "C920",
+            disponibilidad: "En stock"
         },
         {
-            nombre: "Asus ROG Strix G15",
-            imagen: "/imagenes/Asus_ROG_Strix_G15.png",
-            precio: "6.400.000",
-            descripcion: "Laptop gamer con rendimiento excepcional y diseño agresivo.",
-            especificacionesTecnicas: {
-                marca: "Asus",
-                modelo: "ROG Strix G15",
-                procesador: "AMD Ryzen 7 4800H",
-                ram: "16 GB",
-                almacenamiento: "SSD 1 TB",
-                tarjetaGrafica: "NVIDIA GeForce RTX 2060",
-                pantalla: "15.6\" Full HD 144Hz"
-            }
+            nombre: "Auriculares Sony WH-1000XM4",
+            imagen: "/imagenes/sony_wh1000xm4.png",
+            precio: "1,200,000",
+            descripcion: "Auriculares con cancelación de ruido y sonido de alta fidelidad.",
+            marca: "Sony",
+            modelo: "WH-1000XM4",
+            disponibilidad: "Limitado"
         },
         {
-            nombre: "Dell Latitude 7420",
-            imagen: "/imagenes/Dell_Latitude_7420.png",
-            precio: "7.200.000",
-            descripcion: "Laptop empresarial con diseño premium y gran autonomía.",
-            especificacionesTecnicas: {
-                marca: "Dell",
-                modelo: "Latitude 7420",
-                procesador: "Intel Core i7-1185G7",
-                ram: "16 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "14\" Full HD"
-            }
+            nombre: "Disco Duro Externo Seagate Expansion 2TB",
+            imagen: "/imagenes/seagate_expansion_2tb.png",
+            precio: "400,000",
+            descripcion: "Disco duro externo de 2 TB para almacenamiento de datos adicional.",
+            marca: "Seagate",
+            modelo: "Expansion 2TB",
+            disponibilidad: "En stock"
         },
         {
-            nombre: "HP Spectre x360",
-            imagen: "/imagenes/HP_Spectre_x360.png",
-            precio: "5.600.000",
-            descripcion: "Laptop convertible premium con diseño elegante y pantalla táctil.",
-            especificacionesTecnicas: {
-                marca: "HP",
-                modelo: "Spectre x360",
-                procesador: "Intel Core i7-1165G7",
-                ram: "16 GB",
-                almacenamiento: "SSD 1 TB",
-                tarjetaGrafica: "Intel Iris Xe",
-                pantalla: "13.3\" Full HD Touch"
-            }
+            nombre: "Base Refrigerante para Laptop Klim Wind",
+            imagen: "/imagenes/klim_wind.png",
+            precio: "150,000",
+            descripcion: "Base refrigerante con cuatro ventiladores para laptops de hasta 17 pulgadas.",
+            marca: "Klim",
+            modelo: "Wind",
+            disponibilidad: "En stock"
         },
         {
-            nombre: "Microsoft Surface Book 3",
-            imagen: ":/imagenes/Microsoft_Surface_Book_3.png",
-            precio: "8.000.000",
-            descripcion: "Laptop 2 en 1 con pantalla táctil y gran potencia para creativos.",
-            especificacionesTecnicas: {
-                marca: "Microsoft",
-                modelo: "Surface Book 3",
-                procesador: "Intel Core i7-1065G7",
-                ram: "16 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "NVIDIA GeForce GTX 1650",
-                pantalla: "13.5\" PixelSense"
-            }
+            nombre: "Cargador Universal para Laptop 90W",
+            imagen: "/imagenes/cargador_universal_90w.png",
+            precio: "100,000",
+            descripcion: "Cargador universal compatible con múltiples marcas y modelos de laptop.",
+            marca: "Generic",
+            modelo: "Universal 90W",
+            disponibilidad: "En stock"
         },
         {
-            nombre: "Acer Swift 3",
-            imagen: "/imagenes/Acer_Swift_3.png",
-            precio: "3.400.000",
-            descripcion: "Laptop ultradelgada y ligera con buen rendimiento y duración de batería.",
-            especificacionesTecnicas: {
-                marca: "Acer",
-                modelo: "Swift 3",
-                procesador: "AMD Ryzen 5 4500U",
-                ram: "8 GB",
-                almacenamiento: "SSD 512 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "14\" Full HD"
-            }
+            nombre: "Memoria USB Kingston DataTraveler 128GB",
+            imagen: "/imagenes/kingston_datatraveler_128gb.png",
+            precio: "80,000",
+            descripcion: "Memoria USB de 128GB con velocidad de transferencia rápida.",
+            marca: "Kingston",
+            modelo: "DataTraveler 128GB",
+            disponibilidad: "En stock"
         },
         {
-            nombre: "Lenovo Chromebook Duet",
-            imagen: "/imagenes/Lenovo_Chromebook_Duet.png",
-            precio: "1.400.000",
-            descripcion: "Chromebook 2 en 1 con pantalla táctil y gran portabilidad.",
-            especificacionesTecnicas: {
-                marca: "Lenovo",
-                modelo: "Chromebook Duet",
-                procesador: "MediaTek Helio P60T",
-                ram: "4 GB",
-                almacenamiento: "SSD 64 GB",
-                tarjetaGrafica: "Integrada",
-                pantalla: "10.1\" Full HD"
-            }
-        },
+            nombre: "Hub USB-C Anker 5 en 1",
+            imagen: "/imagenes/anker_hub_5_en_1.png",
+            precio: "200,000",
+            descripcion: "Hub con 5 puertos, incluyendo HDMI y USB-C, ideal para laptops modernas.",
+            marca: "Anker",
+            modelo: "5 en 1",
+            disponibilidad: "En stock"
+        }
 ];
