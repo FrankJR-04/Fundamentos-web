@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requerimientos de compra</title>
+    <link rel="stylesheet" href="/proyecto_final/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1> Equipos de computacion y accesorios. </h1>
+    </header>
+    <div class="container">
+    <aside>
+        <img src="/imagenes/logo.png" alt="logo">
+        <p>Bienvenidos aquí encontrarás los mejores equipos computacionales y lo mejores 
+        accesorios, por favor diligencia el formulario para brindarte una experiencia 
+        personalizada.</p>
+    </aside>
+    <main>
+        <form id="formulario">
+            <section class="inputs"> 
+                <label>Nombre</label>
+                <input type="text" name="nombre" id="nombre" required >
+                <label>Presupuesto máximo</label>
+                <input type="number" name="presupuestoMaximo"id="presupuestoMaximo"  required>
+                <label>Cantidad máxima de artículos</label>
+                <input type="number" name="cantidadMaxima" id="cantidadMaxima" required>
+                <label>Dirección</label>
+                <input type="text" name="direccion" id="direccion" required>
+                <label>Tipo de entrega</label>
+                <select name="selector" id="selector" required>
+                    <option value="" selected disabled>Seleccione una opción</option>
+                    <option>En tienda</option>
+                    <option>Domicilio</option>
+                </select>
+            </section>
+            <section class="styles_buttons">
+                <nav>
+                    <button>Iniciar compra</button>
+                    <button id="limpiar">Limpiar campos</button>
+                </nav>
+            </section>
+        </form>
+    </main>
+    </div>
+    <footer>
+        © 2024 JR Software Development Company . Todos los derechos reservados.
+        <br>
+        Desarrollado con orgullo por JR Software Development Company .
+        <br>
+        ¿Necesitas ayuda? Contáctanos en soporte@jrSoftware.com
+    </footer>
+    <script src="/proyecto_final/js/main.js"></script>
+</body>
+</html>

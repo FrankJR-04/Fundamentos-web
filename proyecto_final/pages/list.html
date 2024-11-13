@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="/proyecto_final/css/list.css">
+</head>
+<body>
+    <header>
+        <h1> Carrito de compras</h1>
+        <nav>
+            <button class="cancelar-compra" id="navegacion-button"> Cancelar compra</button>
+            <button class="Seguir-comprando" id="navegacion-button"> Seguir comprando</button>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="table-section">
+                <table>
+                    <thead id="encabezado-tabla">
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Disponibilidad</th>
+                            <th>Cantidad</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody class="elementos">
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+        <section class="form-section">
+            <form id="formulario">
+                <label> Ingrese su número de tarjeta</label>
+                <input id="numero-tarjeta" type="number" required class="inputs-styles">
+                
+                <label> Fecha de expiración</label>
+                <input id="fecha-expiracion" placeholder="MM/AA" type="number" required class="inputs-styles">
+                
+                <label> Código de seguridad </label>
+                <div class="codigo-seguridad-container">
+                    <input id="codigo-seguridad" type="text" oninput="cambiarLetra()" required class="inputs-styles">
+                    <button id="altenar-vista" type="button" onclick="alternarVista()">🙈</button>
+                </div>
+                
+                <label> Nombre del titular</label>
+                <input id="nombre-titular" type="text" required class="inputs-styles">
+                
+                <label> País de expedición </label>
+                <select required> 
+                    <option value="" selected disabled>Seleccione una opción</option>
+                    <option>Colombia</option>
+                    <option>EE. UU.</option>
+                    <option>España</option>
+                    <option>Brasil</option>
+                    <option>Chile</option>
+                    <option>Argentina</option>
+                    <option>Ecuador</option>
+                    <option>Venezuela</option>
+                    <option>Perú</option>
+                    <option>Bolivia</option>
+                    <option>Paraguay</option>
+                </select>
+                
+                <label> Tipo de tarjeta </label>
+                <select required>
+                    <option value="" selected disabled>Seleccione una opción</option>
+                    <option>Mastercard</option>
+                    <option>Visa</option>
+                    <option>Prepagada</option>
+                </select>
+                
+                <nav class="styles_buttons">
+                    <button type="submit" id="comfirmar">Confirmar compra</button>
+                    <button type="button" id="limpiar">Limpiar campos</button>
+                </nav>
+            </form>
+        </section>
+    </aside>
+    </main>
+    <script src="/proyecto_final/js/datos.js"></script>
+    <script src="/proyecto_final/js/productList.js"></script>
+    <script src="/proyecto_final/js/list.js"></script>
+</body> 
+</html>

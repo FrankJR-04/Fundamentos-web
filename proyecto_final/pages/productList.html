@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de productos</title>
+    <link rel="stylesheet" href="/proyecto_final/css/productList.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="regresar-button" id="navegacion-button">Cancelar compra</button>
+            <button class="avanzar-button" id="navegacion-button">Completar compra</button>
+            <select class="filtros" id="filtro-disponibilidad">
+                <option value="todos">Disponibilidad</option>
+                <option>Bajo stock</option>
+                <option>En stock</option>
+                <option>Agotado</option>
+                <option>Disponible bajo pedido</option>
+            </select>
+            <input type="search" class="filtros" id="filtro-marca" placeholder="filtro por marca:">
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article> 
+                <div class="product-container">
+                    
+                </div>
+            </article>   
+        </section>
+    </main>
+    <script src="/proyecto_final/js/datos.js"></script>
+    <script src="/proyecto_final/js/productList.js"></script>
+</body>
+</html>
+
+<!-- Estrutura targetas
+<div class="product-container">
+    <div class="product-card">
+        <img src="laptop.jpg" alt="Laptop" class="product-image">
+        <h2 class="product-name">Laptop</h2>
+        <p class="product-price">$1000</p>
+        <p class="product-Disponibilida">Agotado</p>
+    </div>
+    <div class="product-card">
+        <img src="teclado.jpg" alt="Teclado" class="product-image">
+        <h2 class="product-name">Teclado</h2>
+        <p class="product-price">$50</p>
+        <p class="product-Disponibilida">En estock</p>
+    </div>
+</div>
+-->
