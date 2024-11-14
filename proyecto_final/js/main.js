@@ -40,14 +40,12 @@ let enviarFormulario = (event) => {
         return;
     }
 
-    // Formato de presupuesto a pesos colombianos
     let presupuestoFormateado = new Intl.NumberFormat('es-CO', { 
         style: 'currency', currency: 'COP' 
     }).format(presupuesto);
 
-    // Guardar en localStorage
     localStorage.setItem("nombre", nombre);
-    localStorage.setItem("presupuestoMaximo", presupuestoFormateado);  // Guardar presupuesto formateado
+    localStorage.setItem("presupuestoMaximo", presupuestoFormateado);
     localStorage.setItem("cantidadMaxima", cantidad);
     localStorage.setItem("direccion", direccion);
     localStorage.setItem("selector", selector);
@@ -55,7 +53,6 @@ let enviarFormulario = (event) => {
     window.location.href = "./pages/productList.html";
 };
 
-// Recuperar los datos de localStorage al cargar la página
 window.addEventListener("load", () => {
     document.getElementById("nombre").value = localStorage.getItem("nombre") || "";
     document.getElementById("presupuestoMaximo").value = localStorage.getItem("presupuestoMaximo") || "";
